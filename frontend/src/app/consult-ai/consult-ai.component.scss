@@ -1,0 +1,229 @@
+audio {
+  filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%)!important;
+  width: 300px;
+  height: 75px;
+}
+#buttons{
+    font-family: 'Poppins';
+    font-weight:bold;
+}
+  #heading {
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+    color: white;
+    font-style: continuous
+  }
+  .t-c{
+    text-align:center
+  }
+  .matPhotoCard{
+    background-color: white;
+    height: 35vh;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: #141414;
+    background-color: #ffffff;
+    border-color: #181418;
+  }
+
+  .dropdown-menu {
+    background-color: #fafafa;
+  }
+
+  .dropdown-menu .dropdown-item {
+    color: #464646;
+  }
+
+  .PhotoCard{
+    background-color: #ececec;
+    height: inherit;
+    width: 50%;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+
+  }
+  .box1{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  }
+  .verticalBox{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+  }
+  .flexIt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .photoDiv img {
+    border-radius: 5px
+  }
+  .uploadText{
+    margin:50px inherit 0px inherit!important;
+    color: #5a5959;
+    font-size:1.5rem;
+  }
+  .facebookBtn {
+    background-color: #1266c6;
+      padding:9px 32px!important;
+      border-radius: 5px!important;
+  }
+
+  #photoBtn {
+      margin: 3px;
+      background-color: #0e49b5;
+border-color: white;
+border-width: 3px;
+color: white;
+  }
+  .impNote {
+      margin: 5px 0px;
+      padding-right: 15px;
+      padding-left: 15px;
+      color: #737373;
+      font-size: 0.85rem;
+    }
+
+    .impNoteMain {
+      margin: 0px;
+      padding-right: 15px;
+      padding-left: 15px;
+      color: #737373;
+      font-size: 0.85rem;
+      text-align: center;
+    }
+    .buttonSet{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+  @media only screen and (max-width: 450px){
+    #heading{
+        font-size:1rem ;
+        font-family: 'Poppins';
+        margin-left: 10px;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-weight: bold;
+        color: #000000;
+        font-style: continuous
+    }
+  }
+  .boxx{
+    background-color:#1597bb;
+    height:100%
+  }
+  .butt{
+    background-color: #0e49b5;
+    border-color: white;
+    border-width: 3px;
+    color: white;
+  }
+
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .ai-part{
+    padding: 6px;
+    background-color: #141414;
+    color: rgba(173, 173, 173, 0.863);
+    text-transform: uppercase;
+
+  }
+
+  .section{
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-top: 8em;
+  }
+
+  .take-quiz{
+    width: 100%;
+    transform: scale(1.25);
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 15px;
+    font-weight: 650;
+
+    &:hover{
+      transform: scale(1.25);
+      box-shadow: 0 0 20px #001b4d;
+    }
+
+  }
+
+  .quiz-question{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    margin-top: 50px;
+  }
+
+
+  .start-recording,.stop-recording{
+    margin-top: 40px;
+  }
+
+  .stop-recording{
+    background-image: linear-gradient(to bottom right,rgb(247, 96, 76),rgb(143, 18, 1));
+  }
+
+  .quiz-audio{
+    width: 300px;
+    height: 50px;
+    margin-left: -3.5px;
+    margin-top: 40px;
+  }
+
+  .goto-next-question{
+    background-image: linear-gradient(to bottom right,rgb(29, 212, 38),rgb(15, 105, 3));
+    margin-left: 80px;
+    margin-bottom: 33px;
+  }
+
