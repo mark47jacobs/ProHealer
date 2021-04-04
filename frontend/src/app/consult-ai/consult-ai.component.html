@@ -206,7 +206,15 @@
                                 Question
                             </button>
                         </div>
-                        <div [hidden]="takeQuiz">
+                        <div style="display: flex;flex-direction: column;justify-content: center;align-items: center;padding-bottom: 3rem;"
+                            [hidden]="takeQuiz">
+                            <p class="quiz-question">
+                                Instructions:<br>
+                                1. You have to record your response as audio for each indivudual question.<br>
+                                2. Once you click on Stop Recording, you can listen to your response or go to next
+                                question.<br>
+                                3. Once all 10 questions are completed, you can click on Finish Test to see the results.
+                            </p>
                             <button class="take-quiz btn btn-primary" (click)="takeQuiz=!takeQuiz">Take Quiz
                                 Now!</button>
                         </div>
